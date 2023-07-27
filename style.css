@@ -83,7 +83,10 @@ footer a i{
 
 /* calculator media queries */
 @media screen and (min-width: 320px) and (max-width: 760px) {
-    .calc-container {
-        padding-top: 3vh;
-    }
+        .calc-container {
+            padding: 1em;
+        }
+        .calculator{
+            padding: 0.4em;
+        }
 }

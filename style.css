@@ -14,7 +14,7 @@ body{
 .calc-container {
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 90vw;
 }
 
 .calculator {

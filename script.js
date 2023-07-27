@@ -66,7 +66,7 @@ equals.addEventListener('click', () => {
     } else if (sign === "/") {
         resultValue = firstValue / secondValue;
     }
-    
+
     result.innerHTML = resultValue;
     firstValue = resultValue;
     secondValue = "";

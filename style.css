@@ -1,4 +1,16 @@
-/* calculator styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #e4e4e4;
+}
+
 .calc-container {
     position: relative;
     height: 100vh;
@@ -6,7 +18,7 @@
 }
 
 .calculator {
-    height: 80%;
+    height: 90%;
     background: #000;
     padding: 0.9em;
 }
@@ -52,6 +64,20 @@
 .calculator .rightB {
     color: #fff;
     background: #ff9f0a;
+}
+
+footer {
+    text-align: center;
+    font-weight: 500;
+}
+
+footer a {
+    font-size: 1em;
+}
+
+footer a i{
+    font-size: 2em;
+    color: #343434;
 }
 
 /* calculator media queries */
